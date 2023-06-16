@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { VideoGeneratorComponent } from './video-generator/video-generator.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    VideoGeneratorComponent
   ],
   imports: [
     BrowserModule,
